@@ -1,0 +1,21 @@
+{
+    "name": "rousi/bitery",
+    "description": "Bit Management Library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bitery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rousi - The Red Princess"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*"
+    }
+}
